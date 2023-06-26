@@ -34,7 +34,7 @@
                         </li>
                         <li class="nav-item my-2 me-3 text-uppercase fw-light">
                             <a class="text-light link-underline link-underline-opacity-0" aria-current="page"
-                                href="#">Nosso Espaço</a>
+                                href="#espaco">Nosso Espaço</a>
                         </li>
                         <li class="nav-item my-2 me-3 text-uppercase fw-light">
                             <a class="text-light link-underline link-underline-opacity-0" aria-current="page"
@@ -65,67 +65,226 @@
                     <img src="imagens/reflexologia.jpeg" class="border-img" alt="">
                     <div class="card-body">
                         <h3 class="card-title card-title-font">Reflexologia</h5>
-                        <p class="card-text card-text-font">Reduza seu estresse e alivie suas tensões através desta técnica que usa pontos
-                            de pressão nos
-                            pés, mãos e orelhas, em pontos reflexos do corpo inteiro</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                            <p class="card-text card-text-font">Reduza seu estresse e alivie suas tensões através desta
+                                técnica que usa pontos
+                                de pressão nos
+                                pés, mãos e orelhas, em pontos reflexos do corpo inteiro</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalReflexologia">Saiba mais</a>
                     </div>
                 </div>
                 <div class="card my-3 col-9 col-md-10 col-xl-3 mx-xl-3 rounded-0 border-0">
                     <img src="imagens/shiatsu.jpeg" class="border-img" alt="">
                     <div class="card-body">
                         <h3 class="card-title card-title-font">Shiatsu</h5>
-                        <p class="card-text card-text-font">Equilibre suas energias e libere tensão muscular com a técnica oriental que
-                            foca em pontos
-                            ligados ao fluxo de energia do corpo, também usados na acupuntura</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                            <p class="card-text card-text-font">Equilibre suas energias e libere tensão muscular com a
+                                técnica oriental que
+                                foca em pontos
+                                ligados ao fluxo de energia do corpo, também usados na acupuntura</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalShiatsu">Saiba mais</a>
                     </div>
                 </div>
                 <div class="card my-3 col-9 col-md-10 col-xl-3 mx-xl-3 rounded-0 border-0">
                     <img src="imagens/aromaterapia.jpeg" class="border-img" alt="">
                     <div class="card-body">
                         <h3 class="card-title card-title-font">Aromaterapia</h5>
-                        <p class="card-text card-text-font">Melhore seu bem-estar físico, mental e emocional através do uso terapêutico das
-                            partículas
-                            liberadas por óleos essenciais e seus aromas</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                            <p class="card-text card-text-font">Melhore seu bem-estar físico, mental e emocional através
+                                do uso terapêutico das
+                                partículas
+                                liberadas por óleos essenciais e seus aromas</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalAromaterapia">Saiba mais</a>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <!-- CADASTRO -->
         <section class="cadastro-bg w-100 py-4 px-3" id="promocoes">
             <div class="cadastro d-flex flex-column">
                 <div class="cadastro-titulo">
-                    <h2 class="cadastro-fonte-titulo"><i class="bi bi-box2-heart-fill me-2"></i>Quem não gosta de um desconto?</h2>
-                    <p class="cadastro-fonte-texto">Cadastre seu telefone e receba mensagens no WhatsApp sobre pacotes com preços especiais todo mês!</p>
+                    <h2 class="cadastro-fonte-titulo"><i class="bi bi-box2-heart-fill me-2"></i>Quem não gosta de um
+                        desconto?</h2>
+                    <p class="cadastro-fonte-texto">Cadastre seu telefone e receba mensagens no WhatsApp sobre pacotes
+                        com preços especiais todo mês!</p>
                 </div>
                 <div class="cadastro-formulario align-self-center w-100">
                     <form class="form-floating">
-                        <input type="email" class="form-control" id="floatingPhoneNumber">
+                        <input type="tel" class="form-control" id="floatingPhoneNumber">
                         <label for="floatingPhoneNumber">Escreva seu telefone com DDD (APENAS NÚMEROS): </label>
                     </form>
-                    <button type="submit" class="btn btn-primary d-flex mx-auto mt-3 fw-bold text-uppercase">Enviar</button>
+                    <button type="submit" class="btn btn-primary d-flex mx-auto mt-3 fw-bold text-uppercase"
+                        data-bs-toggle="modal" data-bs-target="#confirmacaoCadastro">Enviar</button>
                 </div>
             </div>
         </section>
 
         <!-- MENSAGEM -->
         <section class="mensagem d-flex flex-column justify-content-center text-center padding-banner">
-                <div class="my-3 card-body">
-                        <p class="card-text px-3 py-1 text-sm-2">"Nossos corpos são nossos jardins. Nossas vontades são nossos jardineiros!"</p>
-                        <p class="card-text py-1 text-sm-2">-William Shakespeare</p>
-                </div>
+            <div class="my-3 card-body">
+                <p class="card-text px-3 py-1 text-sm-2">"Nossos corpos são nossos jardins. Nossas vontades são nossos
+                    jardineiros!"</p>
+                <p class="card-text py-1 text-sm-2">-William Shakespeare</p>
+            </div>
         </section>
-</main>
 
-<!-- RODAPÉ -->
-<footer class="p-1">
-    <i class="bi bi-laptop"></i>
-    <p>Desenvolvido por Roger Almeida | 2023</p>
-</footer>
-    
+        <!-- ESPAÇO -->
+        <section class="text-center" id="espaco">
+            <h2 class="card-title fw-bold fs-3 text-uppercase title pt-5 pb-3">Nosso Espaço:</h2>
+            <div class="d-flex row row-flex justify-content-center text-center">
+                <div class="card my-3 col-9 col-md-10 col-xl-3 mx-xl-3 rounded-0 border-0">
+                    <img src="imagens/construcao.jpg" alt="">
+                    <div class="card-body">
+                        <p class="card-text card-text-font mb-5">Esta área do site ainda está em construção! Em breve,
+                            você
+                            poderá conferir nesta seção imagens do nosso estabelecimento e tudo de mais gostoso que ele
+                            pode lhe oferecer.</p>
+                        <a href="#" class="btn btn-primary">Voltar ao topo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="p-1">
+        <i class="bi bi-laptop"></i>
+        <p>Desenvolvido por Roger Almeida | 2023</p>
+    </footer>
+
+    <!-- MODAIS -->
+    <div class="modal fade" id="modalReflexologia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Reflexologia</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column">
+                    <img src="imagens/reflexologia.jpeg" class="w-50 m-auto pb-3" alt="">
+                    <p>A reflexologia é uma técnica de massagem que utiliza a pressão em pontos específicos dos pés,
+                        mãos e
+                        orelhas que correspondem a órgãos e outras regiões do organismo. Os profissionais costumam
+                        utilizar
+                        gráficos para orientar a região específica de correspondência.
+                        A técnica é dividida em três pontos que correspondem à região onde a massagem será feita. Cada
+                        ponto
+                        funciona como um mapa do corpo:</p>
+
+                    <p>
+                    <ul>
+                        <li><b>Reflexologia podal:</b> visa estimular pontos específicos das plantas dos pés, que pode
+                            proporcionar
+                            alívio de dores, relaxamento e melhora na circulação sanguínea.</li>
+                        <li><b>Reflexologia quirodal (das mãos):</b> ligada diretamente com os pontos das mãos, a
+                            reflexologia quirodal
+                            promove o relaxamento físico e mental.</li>
+                        <li><b>Reflexologia facial:</b> relaxa e tonifica os músculos da face; pode ou não incluir as
+                            orelhas e
+                            contribui para o bom funcionamento de órgãos e articulações.</li>
+                    </ul>
+                    </p>
+
+                    <p>A mais conhecida é a reflexologia podal, por apresentar amplitude de pontos de pressão. São
+                        indicadas, pelo menos, 10 sessões para atingir os benefícios, apesar de ser possível sentir seu
+                        efeito positivo no organismo, ainda nas primeiras sessões.</p>
+
+                    <p class="fonte-pequena">Fonte: <a
+                            href="https://www.anahp.com.br/saude-da-saude/beneficios-da-reflexologia-nos-pes/">https://www.anahp.com.br/saude-da-saude/beneficios-da-reflexologia-nos-pes/</a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar janela</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalShiatsu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Shiatsu</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column">
+                    <img src="imagens/shiatsu.jpeg" class="w-50 m-auto pb-3" alt="">
+                    <p>O principal objetivo do Shiatsu é ativar a energia, equilibrar o funcionamento dos órgãos,
+                        fortalecer a
+                        resistência do organismo, como um coadjuvante no tratamento de problemas de saúde, sejam estes
+                        físicos, emocionais ou psicológicos.</p>
+
+                    <p>O Shiatsu gera equilíbrio físico, mental e espiritual, contribui para a pessoa conhecer seu
+                        próprio corpo, desenvolvendo uma conduta de vida mais harmoniosa e saudável. O terapeuta, que
+                        faz uso da prática do Shiatsu, para tratar do paciente, recorre à pressão dos
+                        dedos. Os pontos onde ocorrem essa pressão são canais de energia do corpo (meridianos). O
+                        objetivo de pressionar esses meridianos ou pontos energéticos é equilibrar o fluxo da energia
+                        vital.
+                    </p>
+
+                    <p>O terapeuta massageia o corpo do paciente utilizando os dedos, os polegares, as mãos, as palmas
+                        das mãos, os cotovelos e os joelhos para alongar o corpo, pressionar os pontos adequados
+                        (“tsubos”). A terapia do Shiatsu alia o tratamento da estrutura física do corpo, com a ativação
+                        de seus pontos energéticos visando melhorar o seu funcionamento e saúde.</p>
+
+                    <p class="fonte-pequena">Fonte: <a
+                            href="https://ceverj.com.br/shiatsu-e-seus-beneficios/">https://ceverj.com.br/shiatsu-e-seus-beneficios/</a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar janela</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalAromaterapia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Aromaterapia</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column">
+                    <img src="imagens/aromaterapia.jpeg" class="w-50 m-auto pb-3" alt="">
+                    <p>A aromaterapia é uma prática terapêutica secular que utiliza as propriedades dos óleos essenciais
+                        100% puros para recuperar o equilíbrio e a harmonia do organismo visando a promoção da saúde
+                        física e mental. O aroma e as partículas liberadas pelos óleos estimulam diferentes partes do
+                        cérebro ajudando a aliviar diversos sintomas e patologias.</p>
+
+                    <p>Seu uso pode ser associado à outras Práticas Integrativas e Complementares (PICS) como
+                        acupuntura, reiki, terapia de florais, cromoterapia, constelação familiar, meditação, cristais,
+                        massagem, dentre outras, e tem sido adotada por diversos profissionais de saúde, como
+                        enfermeiros, psicólogos, fisioterapeutas, médicos, veterinários, terapeutas holísticos e
+                        naturistas.</p>
+
+
+                    <p class="fonte-pequena">Fonte: <a
+                            href="https://revistaabm.com.br/artigos/saiba-mais-sobre-a-aromaterapia-e-os-beneficios-dos-oleos-essenciais">https://revistaabm.com.br/artigos/saiba-mais-sobre-a-aromaterapia-e-os-beneficios-dos-oleos-essenciais</a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar janela</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="confirmacaoCadastro" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel"><i class="bi bi-chat-heart"></i> Que bom ter você por aqui!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Seu número de telefone foi salvo em nosso sistema! Em breve, você irá começar a receber promoções e descontos exclusivos para clientes cadastrados.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar janela</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
